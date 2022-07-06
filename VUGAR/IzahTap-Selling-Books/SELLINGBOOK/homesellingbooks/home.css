@@ -1,0 +1,178 @@
+/* Primary Section */
+
+.homeSellingWrapper {
+  border-radius: 15px;
+  height: 500px;
+  position: relative;
+  background-color: red;
+}
+
+.homeSellingWrapper img {
+  width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.homeSellingWrapper article {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  color: #fff;
+}
+.homeSellingWrapper article h1 {
+  font-size: 44px;
+}
+
+.sellingSearchForm {
+  display: flex;
+  width: 50%;
+  height: 80px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.sellingSearchForm input {
+  width: 80%;
+  height: 100%;
+  border-radius: 15px 0 0 15px;
+  background-color: #fff;
+  font-size: 20px;
+  padding-left: 30px;
+  font-weight: bold;
+}
+::placeholder {
+  color: var(--secondary--textColor);
+}
+.sellingSearchForm button {
+  width: 130px;
+  border-radius: 0 15px 15px 0;
+  float: right;
+  height: 100%;
+  color: white;
+  background-color: var(--primary--buttonBgColor);
+}
+
+.sellingSearchForm button i {
+  font-size: 40px;
+}
+
+/* Popular Books Section */
+.popularBooksWrapper {
+  margin-top: 100px;
+}
+.popularBooksWrapper h2 {
+  text-align: center;
+}
+
+.popularBooksWrapper .yellow i {
+  color: #ff7a00;
+}
+
+.card {
+  width: 315px;
+  height: 550px;
+  background-color: white;
+  padding-top: 5px;
+  border-radius: 15px;
+}
+.cardImageDiv {
+  width: 250px;
+  height: 350px;
+  position: relative;
+  margin: 30px;
+  margin-top: 30px;
+}
+
+.cardImageDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.cardImageDiv button {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  border-radius: 15px;
+  color: white;
+  background: var(--primary--buttonBgColor);
+  cursor: pointer;
+}
+
+.cardImageDiv button i {
+  font-size: 24px;
+}
+
+.cardInfo {
+  text-align: center;
+}
+.cardInfo h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cardInfo p {
+  font-size: 12px;
+  color: var(--secondary--textColor);
+}
+
+/* Advertising Wrapper */
+.adsWrapper {
+  width: 100%;
+  height: 550px;
+  margin-top: 50px;
+  background-color: #edefff;
+  display: flex;
+}
+
+.adsLeftWrapper {
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
+.adsLeftWrapper img {
+  width: 100%;
+  height: 100%;
+}
+.adsRightWrapper {
+  text-align: center;
+  background-color: #edefff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.adsRightWrapper h2 {
+    font-size: 32px;
+}
+.adsRightWrapper h2 span {
+    color: var(--primary--buttonBgColor);
+    border-bottom: #423ED8;
+    padding-bottom: 10px;
+}
+
+.adsRightWrapper p {
+    font-size: 16px;
+    padding:  0 50px 0px 50px;
+    color: var(--secondary--textColor);
+    margin-top: 20px;
+}
+.adsRightWrapper button {
+    width: 60%;
+    background-color: var(--primary--buttonBgColor);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}

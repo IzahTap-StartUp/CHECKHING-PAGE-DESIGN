@@ -1,0 +1,36 @@
+.jobCard {
+  width: 330px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #e7e5e5;
+  padding: 20px 15px 20px 15px;
+}
+
+.jobCardImage {
+  width: 40px;
+  height: 40px;
+  padding: 15px;
+  background-color: #eb5757;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jobCardImage img {
+  width: 30px;
+  height: 30px;
+}
+.jobCardImage p {
+  font-size: 14px;
+  color: var(--secondary--textColor);
+}
+
+.jobApplyBtn {
+  background-color: #6fcf97;
+  color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+}

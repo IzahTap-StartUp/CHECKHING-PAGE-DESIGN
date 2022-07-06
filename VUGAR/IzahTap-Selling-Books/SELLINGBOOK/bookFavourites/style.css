@@ -1,0 +1,64 @@
+
+/* Popular Books Section */
+.popularBooksWrapper {
+    margin-top: 100px;
+  }
+  .popularBooksWrapper h2 {
+    text-align: center;
+  }
+  
+  .popularBooksWrapper .yellow i {
+    color: #ff7a00;
+  }
+  
+  .card {
+    width: 315px;
+    height: 550px;
+    background-color: white;
+    padding-top: 5px;
+    border-radius: 15px;
+  }
+  .cardImageDiv {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    margin: 30px;
+    margin-top: 30px;
+  }
+  
+  .cardImageDiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .cardImageDiv button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    border-radius: 15px;
+    color: white;
+    background: #EB5757;
+    cursor: pointer;
+  }
+  
+  .cardImageDiv button i {
+    font-size: 24px;
+  }
+  
+  .cardInfo {
+    text-align: center;
+  }
+  .cardInfo h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .cardInfo p {
+    font-size: 12px;
+    color: var(--secondary--textColor);
+  }

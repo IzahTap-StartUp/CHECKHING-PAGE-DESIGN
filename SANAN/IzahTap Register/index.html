@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IzahTap | Register</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="global.css" />
+  </head>
+  <body>
+    <section>
+      <div class="registerPart">
+        <div class="register-left-Bar">
+          <img src="images/Rectangle 14.png" />
+          <div class="register-left-bar-text">
+            <p>Çalışırken<br />konforunuzdan<br />vazgeçmeyin.</p>
+            <h2>IzahTap</h2>
+          </div>
+        </div>
+        <div class="register">
+          <div class="register_header">
+            <h1 id="deactive"><a href="#">Login</a></h1>
+            <h1 id="active"><a href="#">Sign Up</a></h1>
+          </div>
+          <div class="register-form-group">
+            <form>
+              <div class="register-form-group_birthday">
+                <label for="birthday" id="birth">BIRTHDAY</label>
+                <div class="selection">
+                  <select name="days" id="days">
+                    <option value="1">1</option>
+                  </select>
+                  <select name="months"  id="months">
+                    <option value="January">January</option>
+                  </select>
+                  <select name="years"  id="years">
+                    <option value="2003">2003</option>
+                  </select>
+                </div>
+              </div>
+              <div class="register-form-group_mailInput">
+                <label for="mail" id="mail">EMAIL</label>
+                <input
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  placeholder="Please enter email"
+                />
+              </div>
+              <div class="register-form-group_nameInput">
+                <label for="name">NAME</label>
+                <input type="text" required placeholder="Please enter name" />
+              </div>
+              <div class="register-form-group_passwordInput">
+                <label for="password">PASSWORD</label>
+                <input
+                  type="password"
+                  required
+                  placeholder="Please enter password"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="registerPart_submitPart">
+            <p>
+              Oturum aç'a tıklayarak Quizlet'in<br />Kullanım Koşulları ve
+              Gizlilik Politikasını kabul etmiş oluyorsunuz.
+            </p>
+            <button type="button"><a href="#">Open Account</a></button>
+            <h4 class="loginFooter">
+                Or <br/>
+                <span>Don't have you account?</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

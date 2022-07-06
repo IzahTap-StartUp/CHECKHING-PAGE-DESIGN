@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.home-page {
+  width: 100%;
+  height: auto;
+}
+
+.homePageMain {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.homePageMain {
+  width: 80%;
+  margin: auto;
+}
+
+.homePageMainText {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+.homePageMainText h2 {
+  font-weight: 600;
+  font-size: 44px;
+  color: white;
+}
+
+.homePageMainText p {
+  font-size: 20px;
+  color: white;
+}
+
+.homePageMainButton {
+  position: absolute;
+  right: 10%;
+  bottom: 20%;
+}
+
+.homePageMainButton button {
+  border: none;
+  outline: none;
+  background-color: #6fcf97;
+  color: white;
+  padding: 25px 45px 25px 45px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Home Page Middle Book Section */
+.homePageBook {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+
+
+.homePageBookText h3 {
+  font-size: 24px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+.homePageBookText p {
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.homePageBookImage {
+  padding-right: 50px;
+}
+
+.homePageBookImage2 {
+  padding-left: 50px;
+}
+
+.homePageBookText2 h3 {
+  padding-bottom: 50px;
+  padding-left: 50px;
+  font-size: 24px;
+}
+
+.homePageBookText2 p {
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.home-page-user-word {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+}
+.user-word-text {
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #746d6d;
+}
+.user-word-text h3 {
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 70px;
+}
+.user-word-text p {
+  padding-bottom: 40px;
+}
+.user-word-text h3,
+.user-word-text p,
+.user-word-button button a {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #303545;
+}
+.user-word-text p {
+  font-weight: 500;
+  color: #9c9fa4;
+}
+
+.user-word-button button {
+  width: 565px;
+  height: 59px;
+  border-radius: 120px;
+  margin-top: 20px;
+  background-color: aquamarine;
+  border: none;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+.user-word-button button:hover {
+  transform: scale(1.1);
+  transition: 1s ease-in-out;
+}
+.user-word-button button a {
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  body,
+  .home-page {
+    background-color: #fff;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+  }
+ 
+
+  
+.homePageMain {
+    width: 95%;
+    margin: auto;
+    padding-top: 40px;
+    height: auto;
+    position: relative;
+    border-radius: 10px;
+  }
+  .homePageImage {
+    width: 100%;
+    height: 200px;
+  }
+  .homePageImage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    background-size: cover;
+  }
+
+  .homePageMainText {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+  }
+  .homePageMainText h2 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .homePageMainText p {
+    display: none;
+  }
+  
+  .homePageMainButton {
+    position: absolute;
+    right: 0%;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .homePageMainButton button {
+    border: none;
+    outline: none;
+    background-color: #6fcf97;
+    color: white;
+    padding: 5px 53px 5px 53px;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Home Page Middle Book Section */
+  .homePageBook {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding-top: 15px;
+  }
+  
+  
+  
+  .homePageBookText h3 {
+    font-size: 20px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+  }
+  .homePageBookText p {
+    font-size: 16px;
+    padding-left: 0px;
+  }
+  
+  .homePageBookImage {
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 10px;
+  }
+
+  .homePageBookImage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    background-size: cover;
+  }
+  
+
+.secondHomePageBook {
+    flex-direction: column-reverse;
+}
+
+  .homePageBookImage2 {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+
+  .homePageBookImage2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    background-size: cover;
+  }
+  
+  .homePageBookText2 h3 {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+  }
+  
+  .homePageBookText2 p {
+    font-size: 16px;
+    padding-left: 0px;
+  }
+  
+  .home-page-user-word {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .user-word-text {
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #746d6d;
+  }
+  .user-word-text h3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+  .user-word-text p {
+    padding-bottom: 40px;
+  }
+  .user-word-text h3,
+  .user-word-text p,
+  .user-word-button button a {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    color: #303545;
+  }
+  .user-word-text p {
+    font-weight: 500;
+    color: #9c9fa4;
+  }
+  
+  .user-word-button button {
+    width: 100%;
+    min-width: 250px;
+    height: 59px;
+    border-radius: 120px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    border: none;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  .user-word-button button:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+  }
+  .user-word-button button a {
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+}

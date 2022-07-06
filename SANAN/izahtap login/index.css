@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  position: absolute;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.loginPart {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.left-Bar {
+  position: relative;
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+
+.left-Bar img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.left-Bar .left-bar-text p {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #3b4c9b;
+}
+.left-Bar .left-bar-text h2 {
+  position: absolute;
+  left: 10%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: white;
+  position: absolute;
+  bottom: 10%;
+}
+
+.login {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 70px 90px 0px 90px;
+}
+.login_header {
+  width: 40%;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.login_header #active a,
+.login_header #deactive a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+  cursor: pointer;
+}
+.login_header #deactive a {
+  color: #b5b0b0;
+  font-weight: 500;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.form-group form label {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #868181;
+}
+
+.form-group_mailInput,
+.form-group_passwordInput {
+  display: flex;
+  flex-direction: column;
+}
+.form-group_mailInput input,
+.form-group_passwordInput input {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 2px solid #000;
+  outline: none;
+  margin-top: 25px;
+}
+.form-group_passwordInput {
+  padding-top: 20px;
+}
+.form-group_passwordInput input {
+  margin-top: 25px;
+}
+.form-group_passwordInput input[type="password"],
+.form-group_mailInput input[type="email"] {
+  color: #d9d9d9;
+  padding: 10px 10px;
+  margin: 8px 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.form-group_mailInput input[type="email"] {
+  color: #000;
+}
+.form-group_passwordInput input[type="password"] {
+  font-size: 15px;
+}
+.loginPart_submitPart {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.loginPart_submitPart p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.loginPart_submitPart button {
+  margin-top: 20px;
+  width: 100%;
+  height: 73px;
+  background: #6fcf97;
+  border: 1px solid #6fcf97;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.loginPart_submitPart button a {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  text-decoration: none;
+}
+.loginFooter {
+  font-size: 12px !important;
+  margin-top: 20px;
+}
+.loginFooter span {
+  color: #6fcf97;
+}
+@media only screen and (max-width: 767px) {
+  .left-Bar {
+    display: none;
+  }
+  .login {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 40px 10px 0px 10px;
+  }
+  .login_header {
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .login_header #active a,
+  .login_header #deactive a {
+    font-size: 20px;
+  }
+  .form-group form label {
+    font-size: 16px;
+  }
+  .form-group_mailInput input,
+  .form-group_passwordInput input {
+    width: 100%;
+  }
+
+  .form-group_passwordInput input[type="password"],
+  .form-group_mailInput input[type="email"] {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .form-group_mailInput input[type="email"] {
+    color: #000;
+  }
+  .loginPart_submitPart {
+    text-align: left;
+  }
+  .loginPart_submitPart p {
+    font-size: 12px;
+  }
+  .loginPart_submitPart button {
+    width: 100%;
+    height: 54px;
+  }
+  .loginPart_submitPart button a {
+    font-size: 16px;
+  }
+  .loginFooter {
+    text-align: center;
+    font-size: 12px !important;
+    margin-top: 20px;
+  }
+  .loginFooter span {
+    color: #6fcf97;
+  }
+}

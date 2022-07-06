@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  position: absolute;
+  display: flex;
+  width: 100%;
+}
+.registerPart {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.register-left-Bar {
+  position: relative;
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+.register-left-Bar img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.register-left-Bar .register-left-bar-text p {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #3b4c9b;
+}
+.register-left-Bar .register-left-bar-text h2 {
+  position: absolute;
+  left: 10%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: white;
+  position: absolute;
+  bottom: 10%;
+}
+
+.register {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 60px 90px 0px 90px;
+}
+.register_header {
+  width: 40%;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.register_header #active a,
+.register_header #deactive a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+  cursor: pointer;
+}
+.register_header #deactive a {
+  color: #b5b0b0;
+  font-weight: 500;
+}
+.register-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.register-form-group label {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #868181;
+}
+
+#days,
+#months,
+#years {
+  width: 115px;
+  height: 50px;
+  background: #ffffff;
+  border: 2px solid #000000;
+}
+.selection {
+  margin-top: 10px;
+}
+.selection select {
+  max-width: 100%;
+  padding: 8px 24px 8px 10px;
+  border: none;
+  color: #6fcf97;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.register-form-group_mailInput,
+.register-form-group_passwordInput,
+.register-form-group_nameInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form-group_mailInput input,
+.register-form-group_passwordInput input,
+.register-form-group_nameInput input {
+  background-color: transparent;
+  border: 2px solid #000;
+  outline: none;
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+}
+
+.register-form-group_mailInput input[type="email"],
+.register-form-group_nameInput input[type="text"],
+.register-form-group_passwordInput input[type="password"] {
+  color: #817c7c;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 10px;
+}
+.registerPart_submitPart {
+  margin-top: 20px;
+}
+.registerPart_submitPart p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.registerPart_submitPart button {
+  margin-top: 10px;
+  width: 100%;
+  height: 73px;
+  background: #6fcf97;
+  border: 1px solid #6fcf97;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.registerPart_submitPart button a {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  text-decoration: none;
+}
+.loginFooter {
+  text-align: center;
+  font-size: 16px !important;
+  margin-top: 20px;
+}
+.loginFooter span {
+  color: #6fcf97;
+}
+@media only screen and (max-width: 767px) {
+  .register-left-Bar {
+    display: none;
+  }
+  .register {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 40px 10px 0px 10px;
+  }
+  .register_header {
+    width: 60%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.selection {
+    display: flex;
+    flex-direction: column;
+}
+
+  #days,
+  #months,
+  #years {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    outline: none;
+  }
+  .register-form-group label {
+    font-size: 16px;
+    line-height: 24px;
+    color: #817c7c;
+    padding-top: 5px;
+  }
+  .register-form-group #birth {
+    font-size: 20px;
+    line-height: 30px;
+    color: #868181;
+  }
+
+  .register-form-group_mailInput input[type="email"],
+  .register-form-group_nameInput input[type="text"],
+  .register-form-group_passwordInput input[type="password"] {
+    font-size: 16px;
+    line-height: 24px;
+  }
+ 
+
+  .registerPart_submitPart button {
+    margin-top: 20px;
+    height: 40px;
+  }
+  .registerPart_submitPart button a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .loginFooter {
+    text-align: center;
+    font-size: 12px !important;
+    margin-top: 10px;
+  }
+  .loginFooter span {
+    color: #6fcf97;
+  }
+}
