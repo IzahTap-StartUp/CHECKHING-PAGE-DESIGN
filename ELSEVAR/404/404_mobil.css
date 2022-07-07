@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+:root {
+    --yasil: #1EB67F;
+    --boz: #9C9FA4;
+    --mainfont: 'Poppins', sans-serif;
+}
+
+#error{
+    margin: 50px 10px 0 10px;
+}
+#error p{
+    font-family: var(--mainfont);
+font-style: normal;
+font-size: 32px;
+line-height: 48px;
+font-weight: 700;
+
+color: var(--boz);
+text-align: center;
+}
+#error h1{
+    font-family: var(--mainfont);
+    text-align: center;
+font-style: normal;
+font-weight: 700;
+font-size: 128px;
+line-height: 192px;
+color: #88D3AB;
+
+}
+
+
+
+
+#explore{
+    margin:  30px 10px 20px 10px;
+}
+
+#explore h3{
+font-size: 24px;
+line-height: 36px;
+padding-top: 30px;
+padding-left: 0px;
+padding-right:  0px;
+}
+
+#explore .explo{
+   width: 100%;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}

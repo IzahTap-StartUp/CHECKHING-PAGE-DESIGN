@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+body {
+  background: #f5f5f5;
+}
+:root {
+  --yasil: #1eb67f;
+  --boz: #9c9fa4;
+  --mainfont: "Poppins", sans-serif;
+}
+
+#error {
+  margin: 0px 0px 0 0px;
+}
+#error p {
+  font-family: var(--mainfont);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--boz);
+  text-align: center;
+}
+#error h1 {
+  font-family: var(--mainfont);
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 300px;
+  color: #88d3ab;
+}
+
+#explore h3 {
+  font-family: var(--mainfont);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 54px;
+  text-align: center;
+  color: var(--boz);
+}
+#explore .explo a {
+  font-family: var(--mainfont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+  text-decoration: none;
+  background-color: #88d3ab;
+
+  color: #f6f7fb;
+  padding: 15px 30px;
+  border-radius: 20px;
+}
+#explore .explo {
+  text-align: center;
+}

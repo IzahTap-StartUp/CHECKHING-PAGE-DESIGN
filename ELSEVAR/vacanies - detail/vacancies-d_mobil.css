@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+:root {
+    --yasil: #1EB67F;
+    --boz: ##9C9FA4;
+    --mainfont: 'Poppins', sans-serif;
+}
+
+
+#foto{
+    margin: 50px 10px 0 10px;
+  }
+  #foto .des img{
+    width: 100%;
+  
+  }
+  #foto .des{
+    display: none;
+  }
+  #foto .mob{
+   display: block;
+  
+  }
+  #foto .mob img{
+    width: 100%;
+    
+  }
+  .paid{
+    margin: 30px 10px 0 10px;
+  }
+  .paid .ux{
+    
+  font-size: 20px;
+  line-height: 30px;
+  
+  
+
+  }
+  
+  .paid .unpaid{
+    display: none;
+   
+  }
+  
+  .paid .ant{
+    display: inline;
+    float: right;
+  }
+  .paid .ant img{
+    padding: 3px;
+  }
+  .paid p{
+  
+  
+  font-size: 12px;
+  line-height: 18px;
+  
+  
+  color: #828282;
+  }
+
+
+
+  .overview{
+    margin: 20px 10px 0 10px;
+  }
+  .overview div h4{
+    font-family: var(--mainfont);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 20px;
+  }
+  .overview div p{
+    font-family: var(--mainfont);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #828282;
+  }
+  .overview .apply{
+    background-color: #6FCF97;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 6px;
+    padding-bottom:6px;
+  }
+  .overview a{
+    text-decoration: none;
+    font-family: var(--mainfont);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  }
